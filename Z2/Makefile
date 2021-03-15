@@ -1,26 +1,25 @@
 CFLAGS	:= -pedantic -Wall -std=c99
 #CFLAGS	+= -Wall
 LDFLAGS := -s 
-.PHONY: all clean tar
-all: test1.x testASCIIbuff.x copyFile.x
+.PHONY: all clean tar servklient
+all: servklient 
 sources = main procinfo
 objects=$(addsuffix .o,$(sources))
 autor=HubertKalinowski
 katalog=`basename $(CURDIR)`
 archiwum=$(autor)_$(katalog)
 
-#procinfo.o:	procinfo.c procinfo.h
 #'basename $(CURDIR)'
 #main.o:	main.c	procinfo.h
 #	gcc -o main.o main.c
-copyFile.x:	
 
 #	$(CC) $(CFLAGS) -c -o $@ $<
-test1.x: 
+servklient: server.x client.x
 
-testASCIIbuff.x:
+server.x:
 
-copyTextFile.x:
+client.x:
+
 
 #program.x: $(addsuffix .o,$(sources))
 
