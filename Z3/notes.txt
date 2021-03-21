@@ -1,0 +1,3 @@
+Zera dopuszczlne
+Klient wysyła ciągi oddzielone spacją
+Serwer wybacza więcej spacji, obcina je, usuwa z początku i końca
