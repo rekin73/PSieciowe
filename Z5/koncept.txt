@@ -1,0 +1,31 @@
+linia zawsze kończy się dwuznakiem \r\n
+
+1 connect with socket
+2 deklaruj automat a
+  deklaruj bufor
+  wczytaj dane do bufora
+3 while stan a != send
+	3.1 index=0;
+	3.2 a przetwórz znak o indeksie index 
+	3.3 index++
+	3.4 if index>=otrzymana ilość danych
+		3.4.1 wczytaj dane do bufora
+	endif
+endwhile 
+
+
+
+
+Automat:
+
+wejście:
+	s stan obecny
+	c znak wejściowy
+wyjście:
+	ns nowy stan
+
+działanie:
+
+if s==start
+	
+endif
