@@ -32,7 +32,7 @@ int main(int argc, char * argv[]){
 	char sendbuf[BUFFL];
 	buf[BUFFL-1]='\0';
 	while(1){
-		printf("Waiting for data...");
+		printf("Waiting for data...\n");
 		//fflush(stdout);
 		if((recvlen=recvfrom(serv_fd,buf,BUFFL-1,0,(struct sockaddr *) &src_addr,&addrlen))==-1){
 			report_error("recvfrom");
@@ -64,7 +64,7 @@ int processData(char *buf,int buflen,char *outbuf){
 
 	while (pch != NULL && !error)
 	{
-		//printf ("%li\n",LONG_MAX);
+		printf ("%i\n",*pch);
 		//LONG_MAX=9223372036854775807
 		if((w=strtol(pch,NULL,10))==0 && strcmp(pch,"0")){
 			sprintf(outbuf,"ERROR BAD_CHAR\n");
