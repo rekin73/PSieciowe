@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-#define BUFFL 512
+#define BUFFL 65536
 void report_error(char *s);
 int processData(char *buf,int buflen,char *outbuf);
 bool detectOverflow(long int a,long int b,long int* sum);
@@ -33,7 +33,6 @@ int main(int argc, char * argv[]){
 	buf[BUFFL-1]='\0';
 	while(1){
 		printf("Waiting for data...\n");
-		//fflush(stdout);
 		if((recvlen=recvfrom(serv_fd,buf,BUFFL-1,0,(struct sockaddr *) &src_addr,&addrlen))==-1){
 			report_error("recvfrom");
 		}
@@ -59,34 +58,39 @@ void report_error(char *s){
 int processData(char *buf,int buflen,char *outbuf){
 	char *pch;
 	long int suma=0,w;
-	pch = strtok (buf," ");
+	buf[buflen]='\0';
 	bool error = false;
+	if(strlen(buf)!=buflen){
+		sprintf(outbuf,"ERROR");
+		error = true;
+	}
+	pch = strtok (buf," ");
+	char *endptr;
 
 	while (pch != NULL && !error)
 	{
 		printf ("%i\n",*pch);
 		//LONG_MAX=9223372036854775807
-		if((w=strtol(pch,NULL,10))==0 && strcmp(pch,"0")){
-			sprintf(outbuf,"ERROR BAD_CHAR\n");
+		if(((w=strtol(pch,&endptr,10))<=0 && strcmp(pch,"0")!=0)||(*pch==0 || *endptr!=0)){
+			sprintf(outbuf,"ERROR");
 			error = true;
 			break;
 		}
 		if(/*(w==LONG_MIN || w==LONG_MAX)&&*/errno==ERANGE){
-			sprintf(outbuf,"ERROR CON_OVERFLOW\n");
+			sprintf(outbuf,"ERROR");
 			error = true;
 			break;
 		}
 		if(detectOverflow(suma,w,&suma)){
-			sprintf(outbuf,"ERROR SUM_OVERFLOW\n");
+			sprintf(outbuf,"ERROR");
 			error = true;
 			break;
 
 		}
-		//suma+=w;
 		pch = strtok (NULL, " ");
 	}
 	if(!error)
-		sprintf(outbuf,"%ld\n",suma);
+		sprintf(outbuf,"%ld",suma);
 	errno=0;
 	return strlen(outbuf);
 }

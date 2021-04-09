@@ -1,0 +1,27 @@
+Test 01... OK
+Test 02... OK
+Test 03... OK
+Test 04... OK
+Test 05... OK
+Test 11... OK (.1)
+Test 12... OK (.1)
+Test 13... OK (.1)
+Test 14... OK (.1)
+Test 15... OK (.2)
+Test 16... OK (.2)
+Test 21... OK
+Test 22... OK
+Test 23... OK
+Test 24... OK
+Test 25... OK
+Test 26... OK
+Test 27... OK
+Test 28... OK
+Test 29... OK
+Test 31... OK (.1)
+Test 32... OK (.1)
+Test 33... OK (.2)
+Test 34... OK (.1)
+Test 35... OK (.2)
+Test 36... OK (.1)
+Wszystkie testy wykonały się poprawnie, gratulacje!
