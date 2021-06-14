@@ -1,1 +1,906 @@
-{"pagination": {"page": 1, "pages": 6, "per_page": 50, "items": 267, "urls": {"last": "https://api.discogs.com/artists/359282/releases?page=6&per_page=50", "next": "https://api.discogs.com/artists/359282/releases?page=2&per_page=50"}}, "releases": [{"id": 1813661, "title": "Jest Taki Samotny Dom / Samotny Noc\u0105", "type": "master", "main_release": 3516841, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/1813661", "year": 1975, "thumb": "", "stats": {"community": {"in_wantlist": 12, "in_collection": 37}}}, {"id": 278880, "title": "Cie\u0144 Wielkiej G\u00f3ry", "type": "master", "main_release": 2140220, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/278880", "year": 1975, "thumb": "", "stats": {"community": {"in_wantlist": 104, "in_collection": 423}}}, {"id": 1108124, "status": "Accepted", "type": "release", "format": "7\", Single", "label": "Tonpress", "title": "Z Dalekich Wypraw / Fragment Suity \"Szalony Ko\u0144\"", "resource_url": "https://api.discogs.com/releases/1108124", "role": "Main", "artist": "Budka Suflera", "year": 1976, "thumb": "", "stats": {"community": {"in_wantlist": 7, "in_collection": 29}}}, {"id": 278882, "title": "Przechodniem By\u0142em Mi\u0119dzy Wami....", "type": "master", "main_release": 918115, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/278882", "year": 1976, "thumb": "", "stats": {"community": {"in_wantlist": 108, "in_collection": 579}}}, {"id": 597596, "title": "Na Brzegu \u015awiat\u0142a", "type": "master", "main_release": 1392607, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/597596", "year": 1979, "thumb": "", "stats": {"community": {"in_wantlist": 34, "in_collection": 303}}}, {"id": 868508, "status": "Accepted", "type": "release", "format": "7\", Single", "label": "Tonpress", "title": "Tyle Samo Prawd Ile K\u0142amstw / Komu Wi\u0119cej Komu Mniej", "resource_url": "https://api.discogs.com/releases/868508", "role": "Main", "artist": "Izabela Trojanowska I Zesp\u00f3\u0142 Budka Suflera", "year": 1980, "thumb": "", "stats": {"community": {"in_wantlist": 14, "in_collection": 61}}}, {"id": 1107741, "status": "Accepted", "type": "release", "format": "7\", Single", "label": "Tonpress", "title": "Sekret / Motyw Z Jasnorzewskiej", "resource_url": "https://api.discogs.com/releases/1107741", "role": "Main", "artist": "Budka Suflera", "year": 1980, "thumb": "", "stats": {"community": {"in_wantlist": 3, "in_collection": 49}}}, {"id": 5055535, "status": "Accepted", "type": "release", "format": "7\", Single", "label": "Tonpress", "title": "Tydzie\u0144 \u0141ez / Wszystko Czego Dzi\u015b Chc\u0119", "resource_url": "https://api.discogs.com/releases/5055535", "role": "Main", "artist": "Izabela Trojanowska I Budka Suflera", "year": 1980, "thumb": "", "stats": {"community": {"in_wantlist": 8, "in_collection": 17}}}, {"id": 1815432, "title": "Znicz Olimipijski", "type": "master", "main_release": 16004767, "artist": "Skaldowie, Budka Suflera, Breakout", "role": "Main", "resource_url": "https://api.discogs.com/masters/1815432", "year": 1980, "thumb": "", "stats": {"community": {"in_wantlist": 13, "in_collection": 5}}}, {"id": 462985, "title": "Ona Przysz\u0142a Prosto Z Chmur", "type": "master", "main_release": 2150128, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/462985", "year": 1980, "thumb": "", "stats": {"community": {"in_wantlist": 26, "in_collection": 541}}}, {"id": 750139, "title": "Tydzie\u0144 \u0142ez", "type": "master", "main_release": 6233317, "artist": "Izabela Trojanowska I Zesp\u00f3\u0142 Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/750139", "year": 1980, "thumb": "", "stats": {"community": {"in_wantlist": 12, "in_collection": 66}}}, {"id": 243737, "title": "Za Ostatni Grosz", "type": "master", "main_release": 1392563, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/243737", "year": 1981, "thumb": "", "stats": {"community": {"in_wantlist": 59, "in_collection": 655}}}, {"id": 237311, "title": "Pytanie O Siebie", "type": "master", "main_release": 868499, "artist": "Izabela Trojanowska I Zesp\u00f3\u0142 Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/237311", "year": 1981, "thumb": "", "stats": {"community": {"in_wantlist": 72, "in_collection": 131}}}, {"id": 870994, "status": "Accepted", "type": "release", "format": "7\", Single", "label": "Tonpress", "title": "Luz-Blues, W Niebie Same Dziury / Bogowie I Demony", "resource_url": "https://api.discogs.com/releases/870994", "role": "Main", "artist": "Urszula I Budka Suflera", "year": 1982, "thumb": "", "stats": {"community": {"in_wantlist": 8, "in_collection": 131}}}, {"id": 237579, "title": "Nie Wierz Nigdy Kobiecie ", "type": "master", "main_release": 1038270, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/237579", "year": 1982, "thumb": "", "stats": {"community": {"in_wantlist": 8, "in_collection": 92}}}, {"id": 1058384, "status": "Accepted", "type": "release", "format": "7\", Single", "label": "Polskie Nagrania Muza", "title": "Sen O Dolinie / Jest Taki Samotny Dom", "resource_url": "https://api.discogs.com/releases/1058384", "role": "Main", "artist": "Budka Suflera", "year": 1983, "thumb": "", "stats": {"community": {"in_wantlist": 4, "in_collection": 104}}}, {"id": 1015710, "status": "Accepted", "type": "release", "format": "7\"", "label": "Tonpress", "title": "Za Ostatni Grosz / Memu Miastu Na Do Widzenia", "resource_url": "https://api.discogs.com/releases/1015710", "role": "Main", "artist": "Budka Suflera", "year": 1984, "thumb": "", "stats": {"community": {"in_wantlist": 10, "in_collection": 154}}}, {"id": 670467, "title": "1974 - 1984", "type": "master", "main_release": 1844154, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/670467", "year": 1984, "thumb": "", "stats": {"community": {"in_wantlist": 49, "in_collection": 1103}}}, {"id": 492511, "title": "Czas Czekania, Czas Ol\u015bnienia", "type": "master", "main_release": 1769742, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/492511", "year": 1984, "thumb": "", "stats": {"community": {"in_wantlist": 25, "in_collection": 559}}}, {"id": 492507, "title": "Giganci Ta\u0144cz\u0105", "type": "master", "main_release": 2140279, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/492507", "year": 1986, "thumb": "", "stats": {"community": {"in_wantlist": 18, "in_collection": 223}}}, {"id": 3833450, "status": "Accepted", "type": "release", "format": "12\", EP", "label": "Polam Entertainment", "title": "American Tour", "resource_url": "https://api.discogs.com/releases/3833450", "role": "Main", "artist": "Budka Suflera", "year": 1988, "thumb": "", "stats": {"community": {"in_wantlist": 18, "in_collection": 25}}}, {"id": 1824194, "title": "The Best Of Urszula & Budka Suflera", "type": "master", "main_release": 16079038, "artist": "Urszula & Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/1824194", "year": 1988, "thumb": "", "stats": {"community": {"in_wantlist": 5, "in_collection": 2}}}, {"id": 492506, "title": "Ratujmy Co Si\u0119 Da!", "type": "master", "main_release": 690022, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/492506", "year": 1989, "thumb": "", "stats": {"community": {"in_wantlist": 19, "in_collection": 338}}}, {"id": 5969864, "status": "Accepted", "type": "release", "format": "2xCass, Comp", "label": "New Abra", "title": "The Story Of Budka Suflera 1974-1989", "resource_url": "https://api.discogs.com/releases/5969864", "role": "Main", "artist": "Budka Suflera", "year": 1992, "thumb": "", "stats": {"community": {"in_wantlist": 3, "in_collection": 10}}}, {"id": 831263, "title": "Greatest Hits", "type": "master", "main_release": 4036041, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/831263", "year": 1992, "thumb": "", "stats": {"community": {"in_wantlist": 5, "in_collection": 75}}}, {"id": 643130, "title": "4 Pieces To Go", "type": "master", "main_release": 4275420, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/643130", "year": 1992, "thumb": "", "stats": {"community": {"in_wantlist": 5, "in_collection": 3}}}, {"id": 627399, "title": "Best Of ...", "type": "master", "main_release": 1609735, "artist": "Urszula & Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/627399", "year": 1992, "thumb": "", "stats": {"community": {"in_wantlist": 9, "in_collection": 45}}}, {"id": 433772, "title": "Cisza", "type": "master", "main_release": 1150495, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/433772", "year": 1993, "thumb": "", "stats": {"community": {"in_wantlist": 9, "in_collection": 61}}}, {"id": 1184049, "title": "Budka W Operze, Live From Sopot '94", "type": "master", "main_release": 4035936, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/1184049", "year": 1994, "thumb": "", "stats": {"community": {"in_wantlist": 4, "in_collection": 34}}}, {"id": 1000019, "title": "Underground", "type": "master", "main_release": 3866769, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/1000019", "year": 1994, "thumb": "", "stats": {"community": {"in_wantlist": 7, "in_collection": 25}}}, {"id": 1332423, "title": "Noc", "type": "master", "main_release": 1609683, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/1332423", "year": 1995, "thumb": "", "stats": {"community": {"in_wantlist": 5, "in_collection": 36}}}, {"id": 4829365, "status": "Accepted", "type": "release", "format": "CD, Single, Promo", "label": "New Abra", "title": "Strefa P\u00f3\u0142cienia", "resource_url": "https://api.discogs.com/releases/4829365", "role": "Main", "artist": "Budka Suflera", "year": 1997, "thumb": "", "stats": {"community": {"in_wantlist": 2, "in_collection": 2}}}, {"id": 9275160, "status": "Accepted", "type": "release", "format": "CD, Single, Promo", "label": "New Abra", "title": "Takie Tango", "resource_url": "https://api.discogs.com/releases/9275160", "role": "Main", "artist": "Budka Suflera", "year": 1997, "thumb": "", "stats": {"community": {"in_wantlist": 2, "in_collection": 2}}}, {"id": 433775, "title": "Nic Nie Boli, Tak Jak \u017bycie", "type": "master", "main_release": 1609627, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/433775", "year": 1997, "thumb": "", "stats": {"community": {"in_wantlist": 8, "in_collection": 163}}}, {"id": 7118009, "status": "Accepted", "type": "release", "format": "DVD, Album", "label": "New Abra", "title": "Akustycznie", "resource_url": "https://api.discogs.com/releases/7118009", "role": "Main", "artist": "Budka Suflera", "year": 1998, "thumb": "", "stats": {"community": {"in_wantlist": 1, "in_collection": 11}}}, {"id": 785527, "title": "Akustycznie ", "type": "master", "main_release": 6515390, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/785527", "year": 1998, "thumb": "", "stats": {"community": {"in_wantlist": 1, "in_collection": 19}}}, {"id": 605050, "title": "Casi Un Tango", "type": "master", "main_release": 4577397, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/605050", "year": 1998, "thumb": "", "stats": {"community": {"in_wantlist": 3, "in_collection": 0}}}, {"id": 1178655, "status": "Accepted", "type": "release", "format": "10xCD, Comp, RM + Box", "label": "New Abra", "title": "Antologia 1974 - 99", "resource_url": "https://api.discogs.com/releases/1178655", "role": "Main", "artist": "Budka Suflera", "year": 1999, "thumb": "", "stats": {"community": {"in_wantlist": 12, "in_collection": 31}}}, {"id": 2353988, "status": "Accepted", "type": "release", "format": "DVD-V, PAL", "label": "New Abra", "title": "25 Lat - Koncert - Spodek 1999", "resource_url": "https://api.discogs.com/releases/2353988", "role": "Main", "artist": "Budka Suflera", "year": 1999, "thumb": "", "stats": {"community": {"in_wantlist": 1, "in_collection": 26}}}, {"id": 1250666, "title": "Greatest Hits II", "type": "master", "main_release": 1609576, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/1250666", "year": 1999, "thumb": "", "stats": {"community": {"in_wantlist": 5, "in_collection": 57}}}, {"id": 9478663, "status": "Accepted", "type": "release", "format": "CD, Single, Promo", "label": "New Abra", "title": "\u015awiat Od Zaraz", "resource_url": "https://api.discogs.com/releases/9478663", "role": "Main", "artist": "Budka Suflera", "year": 2000, "thumb": "", "stats": {"community": {"in_wantlist": 0, "in_collection": 4}}}, {"id": 243735, "title": "Bal Wszystkich \u015awi\u0119tych", "type": "master", "main_release": 847378, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/243735", "year": 2000, "thumb": "", "stats": {"community": {"in_wantlist": 4, "in_collection": 88}}}, {"id": 1250670, "title": "Live At Carnegie Hall", "type": "master", "main_release": 4036014, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/1250670", "year": 2000, "thumb": "", "stats": {"community": {"in_wantlist": 3, "in_collection": 61}}}, {"id": 4137006, "status": "Accepted", "type": "release", "format": "CD, EP", "label": "Good Summer", "title": "Najpi\u0119kniejsze Kol\u0119dy", "resource_url": "https://api.discogs.com/releases/4137006", "role": "Main", "artist": "Budka Suflera", "year": 2002, "thumb": "", "stats": {"community": {"in_wantlist": 0, "in_collection": 17}}}, {"id": 5540219, "status": "Accepted", "type": "release", "format": "CD", "label": "G + J Polska", "title": "The Best Of Budka Suflera", "resource_url": "https://api.discogs.com/releases/5540219", "role": "Main", "artist": "Budka Suflera", "year": 2002, "thumb": "", "stats": {"community": {"in_wantlist": 1, "in_collection": 14}}}, {"id": 10638499, "status": "Accepted", "type": "release", "format": "CD, Single, Promo", "label": "Pomaton EMI", "title": "Kiedy Rozum \u015api", "resource_url": "https://api.discogs.com/releases/10638499", "role": "Main", "artist": "Budka Suflera", "year": 2002, "thumb": "", "stats": {"community": {"in_wantlist": 1, "in_collection": 1}}}, {"id": 492508, "title": "Mokre Oczy", "type": "master", "main_release": 843763, "artist": "Budka Suflera", "role": "Main", "resource_url": "https://api.discogs.com/masters/492508", "year": 2002, "thumb": "", "stats": {"community": {"in_wantlist": 3, "in_collection": 65}}}, {"id": 14599900, "status": "Accepted", "type": "release", "format": "CD, Promo, S/Edition", "label": "Good Summer", "title": "Pal\u0119 Sobie... Wydanie Specjalne", "resource_url": "https://api.discogs.com/releases/14599900", "role": "Main", "artist": "Budka Suflera", "year": 2003, "thumb": "", "stats": {"community": {"in_wantlist": 1, "in_collection": 2}}}, {"id": 15947228, "status": "Accepted", "type": "release", "format": "CD, Ltd, Promo", "label": "Good Summer", "title": "Pos\u0142uchaj Sobie... (Sk\u0142adanka Najlepszych Przeboj\u00f3w)", "resource_url": "https://api.discogs.com/releases/15947228", "role": "Main", "artist": "Budka Suflera", "year": 2003, "thumb": "", "stats": {"community": {"in_wantlist": 0, "in_collection": 3}}}, {"id": 7376818, "status": "Accepted", "type": "release", "format": "CD, Single, Promo", "label": "Budka Suflera Production", "title": "Dancing With Ghosts / Skazani Na Ten Czas", "resource_url": "https://api.discogs.com/releases/7376818", "role": "Main", "artist": "Budka Suflera", "year": 2004, "thumb": "", "stats": {"community": {"in_wantlist": 1, "in_collection": 4}}}]}
+{
+    "pagination": {
+        "items": 267,
+        "page": 1,
+        "pages": 6,
+        "per_page": 50,
+        "urls": {
+            "last": "https://api.discogs.com/artists/359282/releases?page=6&per_page=50",
+            "next": "https://api.discogs.com/artists/359282/releases?page=2&per_page=50"
+        }
+    },
+    "releases": [
+        {
+            "artist": "Budka Suflera",
+            "id": 1813661,
+            "main_release": 3516841,
+            "resource_url": "https://api.discogs.com/masters/1813661",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 37,
+                    "in_wantlist": 12
+                }
+            },
+            "thumb": "",
+            "title": "Jest Taki Samotny Dom / Samotny Noc\u0105",
+            "type": "master",
+            "year": 1975
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 278880,
+            "main_release": 2140220,
+            "resource_url": "https://api.discogs.com/masters/278880",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 423,
+                    "in_wantlist": 104
+                }
+            },
+            "thumb": "",
+            "title": "Cie\u0144 Wielkiej G\u00f3ry",
+            "type": "master",
+            "year": 1975
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "7\", Single",
+            "id": 1108124,
+            "label": "Tonpress",
+            "resource_url": "https://api.discogs.com/releases/1108124",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 29,
+                    "in_wantlist": 7
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Z Dalekich Wypraw / Fragment Suity \"Szalony Ko\u0144\"",
+            "type": "release",
+            "year": 1976
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 278882,
+            "main_release": 918115,
+            "resource_url": "https://api.discogs.com/masters/278882",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 579,
+                    "in_wantlist": 108
+                }
+            },
+            "thumb": "",
+            "title": "Przechodniem By\u0142em Mi\u0119dzy Wami....",
+            "type": "master",
+            "year": 1976
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 597596,
+            "main_release": 1392607,
+            "resource_url": "https://api.discogs.com/masters/597596",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 303,
+                    "in_wantlist": 34
+                }
+            },
+            "thumb": "",
+            "title": "Na Brzegu \u015awiat\u0142a",
+            "type": "master",
+            "year": 1979
+        },
+        {
+            "artist": "Izabela Trojanowska I Zesp\u00f3\u0142 Budka Suflera",
+            "format": "7\", Single",
+            "id": 868508,
+            "label": "Tonpress",
+            "resource_url": "https://api.discogs.com/releases/868508",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 61,
+                    "in_wantlist": 14
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Tyle Samo Prawd Ile K\u0142amstw / Komu Wi\u0119cej Komu Mniej",
+            "type": "release",
+            "year": 1980
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "7\", Single",
+            "id": 1107741,
+            "label": "Tonpress",
+            "resource_url": "https://api.discogs.com/releases/1107741",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 49,
+                    "in_wantlist": 3
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Sekret / Motyw Z Jasnorzewskiej",
+            "type": "release",
+            "year": 1980
+        },
+        {
+            "artist": "Izabela Trojanowska I Budka Suflera",
+            "format": "7\", Single",
+            "id": 5055535,
+            "label": "Tonpress",
+            "resource_url": "https://api.discogs.com/releases/5055535",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 17,
+                    "in_wantlist": 8
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Tydzie\u0144 \u0141ez / Wszystko Czego Dzi\u015b Chc\u0119",
+            "type": "release",
+            "year": 1980
+        },
+        {
+            "artist": "Skaldowie, Budka Suflera, Breakout",
+            "id": 1815432,
+            "main_release": 16004767,
+            "resource_url": "https://api.discogs.com/masters/1815432",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 5,
+                    "in_wantlist": 13
+                }
+            },
+            "thumb": "",
+            "title": "Znicz Olimipijski",
+            "type": "master",
+            "year": 1980
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 462985,
+            "main_release": 2150128,
+            "resource_url": "https://api.discogs.com/masters/462985",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 541,
+                    "in_wantlist": 26
+                }
+            },
+            "thumb": "",
+            "title": "Ona Przysz\u0142a Prosto Z Chmur",
+            "type": "master",
+            "year": 1980
+        },
+        {
+            "artist": "Izabela Trojanowska I Zesp\u00f3\u0142 Budka Suflera",
+            "id": 750139,
+            "main_release": 6233317,
+            "resource_url": "https://api.discogs.com/masters/750139",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 66,
+                    "in_wantlist": 12
+                }
+            },
+            "thumb": "",
+            "title": "Tydzie\u0144 \u0142ez",
+            "type": "master",
+            "year": 1980
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 243737,
+            "main_release": 1392563,
+            "resource_url": "https://api.discogs.com/masters/243737",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 655,
+                    "in_wantlist": 59
+                }
+            },
+            "thumb": "",
+            "title": "Za Ostatni Grosz",
+            "type": "master",
+            "year": 1981
+        },
+        {
+            "artist": "Izabela Trojanowska I Zesp\u00f3\u0142 Budka Suflera",
+            "id": 237311,
+            "main_release": 868499,
+            "resource_url": "https://api.discogs.com/masters/237311",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 131,
+                    "in_wantlist": 72
+                }
+            },
+            "thumb": "",
+            "title": "Pytanie O Siebie",
+            "type": "master",
+            "year": 1981
+        },
+        {
+            "artist": "Urszula I Budka Suflera",
+            "format": "7\", Single",
+            "id": 870994,
+            "label": "Tonpress",
+            "resource_url": "https://api.discogs.com/releases/870994",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 131,
+                    "in_wantlist": 8
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Luz-Blues, W Niebie Same Dziury / Bogowie I Demony",
+            "type": "release",
+            "year": 1982
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 237579,
+            "main_release": 1038270,
+            "resource_url": "https://api.discogs.com/masters/237579",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 92,
+                    "in_wantlist": 8
+                }
+            },
+            "thumb": "",
+            "title": "Nie Wierz Nigdy Kobiecie ",
+            "type": "master",
+            "year": 1982
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "7\", Single",
+            "id": 1058384,
+            "label": "Polskie Nagrania Muza",
+            "resource_url": "https://api.discogs.com/releases/1058384",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 104,
+                    "in_wantlist": 4
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Sen O Dolinie / Jest Taki Samotny Dom",
+            "type": "release",
+            "year": 1983
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "7\"",
+            "id": 1015710,
+            "label": "Tonpress",
+            "resource_url": "https://api.discogs.com/releases/1015710",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 154,
+                    "in_wantlist": 10
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Za Ostatni Grosz / Memu Miastu Na Do Widzenia",
+            "type": "release",
+            "year": 1984
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 670467,
+            "main_release": 1844154,
+            "resource_url": "https://api.discogs.com/masters/670467",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 1103,
+                    "in_wantlist": 49
+                }
+            },
+            "thumb": "",
+            "title": "1974 - 1984",
+            "type": "master",
+            "year": 1984
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 492511,
+            "main_release": 1769742,
+            "resource_url": "https://api.discogs.com/masters/492511",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 559,
+                    "in_wantlist": 25
+                }
+            },
+            "thumb": "",
+            "title": "Czas Czekania, Czas Ol\u015bnienia",
+            "type": "master",
+            "year": 1984
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 492507,
+            "main_release": 2140279,
+            "resource_url": "https://api.discogs.com/masters/492507",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 223,
+                    "in_wantlist": 18
+                }
+            },
+            "thumb": "",
+            "title": "Giganci Ta\u0144cz\u0105",
+            "type": "master",
+            "year": 1986
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "12\", EP",
+            "id": 3833450,
+            "label": "Polam Entertainment",
+            "resource_url": "https://api.discogs.com/releases/3833450",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 25,
+                    "in_wantlist": 18
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "American Tour",
+            "type": "release",
+            "year": 1988
+        },
+        {
+            "artist": "Urszula & Budka Suflera",
+            "id": 1824194,
+            "main_release": 16079038,
+            "resource_url": "https://api.discogs.com/masters/1824194",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 2,
+                    "in_wantlist": 5
+                }
+            },
+            "thumb": "",
+            "title": "The Best Of Urszula & Budka Suflera",
+            "type": "master",
+            "year": 1988
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 492506,
+            "main_release": 690022,
+            "resource_url": "https://api.discogs.com/masters/492506",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 338,
+                    "in_wantlist": 19
+                }
+            },
+            "thumb": "",
+            "title": "Ratujmy Co Si\u0119 Da!",
+            "type": "master",
+            "year": 1989
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "2xCass, Comp",
+            "id": 5969864,
+            "label": "New Abra",
+            "resource_url": "https://api.discogs.com/releases/5969864",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 10,
+                    "in_wantlist": 3
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "The Story Of Budka Suflera 1974-1989",
+            "type": "release",
+            "year": 1992
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 831263,
+            "main_release": 4036041,
+            "resource_url": "https://api.discogs.com/masters/831263",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 75,
+                    "in_wantlist": 5
+                }
+            },
+            "thumb": "",
+            "title": "Greatest Hits",
+            "type": "master",
+            "year": 1992
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 643130,
+            "main_release": 4275420,
+            "resource_url": "https://api.discogs.com/masters/643130",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 3,
+                    "in_wantlist": 5
+                }
+            },
+            "thumb": "",
+            "title": "4 Pieces To Go",
+            "type": "master",
+            "year": 1992
+        },
+        {
+            "artist": "Urszula & Budka Suflera",
+            "id": 627399,
+            "main_release": 1609735,
+            "resource_url": "https://api.discogs.com/masters/627399",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 45,
+                    "in_wantlist": 9
+                }
+            },
+            "thumb": "",
+            "title": "Best Of ...",
+            "type": "master",
+            "year": 1992
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 433772,
+            "main_release": 1150495,
+            "resource_url": "https://api.discogs.com/masters/433772",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 61,
+                    "in_wantlist": 9
+                }
+            },
+            "thumb": "",
+            "title": "Cisza",
+            "type": "master",
+            "year": 1993
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 1184049,
+            "main_release": 4035936,
+            "resource_url": "https://api.discogs.com/masters/1184049",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 34,
+                    "in_wantlist": 4
+                }
+            },
+            "thumb": "",
+            "title": "Budka W Operze, Live From Sopot '94",
+            "type": "master",
+            "year": 1994
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 1000019,
+            "main_release": 3866769,
+            "resource_url": "https://api.discogs.com/masters/1000019",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 25,
+                    "in_wantlist": 7
+                }
+            },
+            "thumb": "",
+            "title": "Underground",
+            "type": "master",
+            "year": 1994
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 1332423,
+            "main_release": 1609683,
+            "resource_url": "https://api.discogs.com/masters/1332423",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 36,
+                    "in_wantlist": 5
+                }
+            },
+            "thumb": "",
+            "title": "Noc",
+            "type": "master",
+            "year": 1995
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, Single, Promo",
+            "id": 4829365,
+            "label": "New Abra",
+            "resource_url": "https://api.discogs.com/releases/4829365",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 2,
+                    "in_wantlist": 2
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Strefa P\u00f3\u0142cienia",
+            "type": "release",
+            "year": 1997
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, Single, Promo",
+            "id": 9275160,
+            "label": "New Abra",
+            "resource_url": "https://api.discogs.com/releases/9275160",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 2,
+                    "in_wantlist": 2
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Takie Tango",
+            "type": "release",
+            "year": 1997
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 433775,
+            "main_release": 1609627,
+            "resource_url": "https://api.discogs.com/masters/433775",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 163,
+                    "in_wantlist": 8
+                }
+            },
+            "thumb": "",
+            "title": "Nic Nie Boli, Tak Jak \u017bycie",
+            "type": "master",
+            "year": 1997
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "DVD, Album",
+            "id": 7118009,
+            "label": "New Abra",
+            "resource_url": "https://api.discogs.com/releases/7118009",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 11,
+                    "in_wantlist": 1
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Akustycznie",
+            "type": "release",
+            "year": 1998
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 785527,
+            "main_release": 6515390,
+            "resource_url": "https://api.discogs.com/masters/785527",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 19,
+                    "in_wantlist": 1
+                }
+            },
+            "thumb": "",
+            "title": "Akustycznie ",
+            "type": "master",
+            "year": 1998
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 605050,
+            "main_release": 4577397,
+            "resource_url": "https://api.discogs.com/masters/605050",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 0,
+                    "in_wantlist": 3
+                }
+            },
+            "thumb": "",
+            "title": "Casi Un Tango",
+            "type": "master",
+            "year": 1998
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "10xCD, Comp, RM + Box",
+            "id": 1178655,
+            "label": "New Abra",
+            "resource_url": "https://api.discogs.com/releases/1178655",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 31,
+                    "in_wantlist": 12
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Antologia 1974 - 99",
+            "type": "release",
+            "year": 1999
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "DVD-V, PAL",
+            "id": 2353988,
+            "label": "New Abra",
+            "resource_url": "https://api.discogs.com/releases/2353988",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 26,
+                    "in_wantlist": 1
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "25 Lat - Koncert - Spodek 1999",
+            "type": "release",
+            "year": 1999
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 1250666,
+            "main_release": 1609576,
+            "resource_url": "https://api.discogs.com/masters/1250666",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 57,
+                    "in_wantlist": 5
+                }
+            },
+            "thumb": "",
+            "title": "Greatest Hits II",
+            "type": "master",
+            "year": 1999
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, Single, Promo",
+            "id": 9478663,
+            "label": "New Abra",
+            "resource_url": "https://api.discogs.com/releases/9478663",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 4,
+                    "in_wantlist": 0
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "\u015awiat Od Zaraz",
+            "type": "release",
+            "year": 2000
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 243735,
+            "main_release": 847378,
+            "resource_url": "https://api.discogs.com/masters/243735",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 88,
+                    "in_wantlist": 4
+                }
+            },
+            "thumb": "",
+            "title": "Bal Wszystkich \u015awi\u0119tych",
+            "type": "master",
+            "year": 2000
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 1250670,
+            "main_release": 4036014,
+            "resource_url": "https://api.discogs.com/masters/1250670",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 61,
+                    "in_wantlist": 3
+                }
+            },
+            "thumb": "",
+            "title": "Live At Carnegie Hall",
+            "type": "master",
+            "year": 2000
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, EP",
+            "id": 4137006,
+            "label": "Good Summer",
+            "resource_url": "https://api.discogs.com/releases/4137006",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 17,
+                    "in_wantlist": 0
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Najpi\u0119kniejsze Kol\u0119dy",
+            "type": "release",
+            "year": 2002
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD",
+            "id": 5540219,
+            "label": "G + J Polska",
+            "resource_url": "https://api.discogs.com/releases/5540219",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 14,
+                    "in_wantlist": 1
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "The Best Of Budka Suflera",
+            "type": "release",
+            "year": 2002
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, Single, Promo",
+            "id": 10638499,
+            "label": "Pomaton EMI",
+            "resource_url": "https://api.discogs.com/releases/10638499",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 1,
+                    "in_wantlist": 1
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Kiedy Rozum \u015api",
+            "type": "release",
+            "year": 2002
+        },
+        {
+            "artist": "Budka Suflera",
+            "id": 492508,
+            "main_release": 843763,
+            "resource_url": "https://api.discogs.com/masters/492508",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 65,
+                    "in_wantlist": 3
+                }
+            },
+            "thumb": "",
+            "title": "Mokre Oczy",
+            "type": "master",
+            "year": 2002
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, Promo, S/Edition",
+            "id": 14599900,
+            "label": "Good Summer",
+            "resource_url": "https://api.discogs.com/releases/14599900",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 2,
+                    "in_wantlist": 1
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Pal\u0119 Sobie... Wydanie Specjalne",
+            "type": "release",
+            "year": 2003
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, Ltd, Promo",
+            "id": 15947228,
+            "label": "Good Summer",
+            "resource_url": "https://api.discogs.com/releases/15947228",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 3,
+                    "in_wantlist": 0
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Pos\u0142uchaj Sobie... (Sk\u0142adanka Najlepszych Przeboj\u00f3w)",
+            "type": "release",
+            "year": 2003
+        },
+        {
+            "artist": "Budka Suflera",
+            "format": "CD, Single, Promo",
+            "id": 7376818,
+            "label": "Budka Suflera Production",
+            "resource_url": "https://api.discogs.com/releases/7376818",
+            "role": "Main",
+            "stats": {
+                "community": {
+                    "in_collection": 4,
+                    "in_wantlist": 1
+                }
+            },
+            "status": "Accepted",
+            "thumb": "",
+            "title": "Dancing With Ghosts / Skazani Na Ten Czas",
+            "type": "release",
+            "year": 2004
+        }
+    ]
+}

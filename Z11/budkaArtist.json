@@ -1,0 +1,175 @@
+{
+    "data_quality": "Needs Vote",
+    "id": 359282,
+    "images": [
+        {
+            "height": 419,
+            "resource_url": "",
+            "type": "primary",
+            "uri": "",
+            "uri150": "",
+            "width": 600
+        },
+        {
+            "height": 331,
+            "resource_url": "",
+            "type": "secondary",
+            "uri": "",
+            "uri150": "",
+            "width": 457
+        },
+        {
+            "height": 362,
+            "resource_url": "",
+            "type": "secondary",
+            "uri": "",
+            "uri150": "",
+            "width": 457
+        },
+        {
+            "height": 250,
+            "resource_url": "",
+            "type": "secondary",
+            "uri": "",
+            "uri150": "",
+            "width": 461
+        }
+    ],
+    "members": [
+        {
+            "active": false,
+            "id": 516819,
+            "name": "Stanis\u0142aw Zybowski",
+            "resource_url": "https://api.discogs.com/artists/516819"
+        },
+        {
+            "active": true,
+            "id": 516820,
+            "name": "Tomasz Zeliszewski",
+            "resource_url": "https://api.discogs.com/artists/516820"
+        },
+        {
+            "active": false,
+            "id": 516821,
+            "name": "Krzysztof Cugowski",
+            "resource_url": "https://api.discogs.com/artists/516821"
+        },
+        {
+            "active": false,
+            "id": 516822,
+            "name": "Romuald Lipko",
+            "resource_url": "https://api.discogs.com/artists/516822"
+        },
+        {
+            "active": false,
+            "id": 532854,
+            "name": "Marek Stefankiewicz",
+            "resource_url": "https://api.discogs.com/artists/532854"
+        },
+        {
+            "active": false,
+            "id": 543450,
+            "name": "Krzysztof Mandziara",
+            "resource_url": "https://api.discogs.com/artists/543450"
+        },
+        {
+            "active": false,
+            "id": 676544,
+            "name": "Marek Raduli",
+            "resource_url": "https://api.discogs.com/artists/676544"
+        },
+        {
+            "active": false,
+            "id": 679306,
+            "name": "Jan Borysewicz",
+            "resource_url": "https://api.discogs.com/artists/679306"
+        },
+        {
+            "active": true,
+            "id": 702387,
+            "name": "Mieczys\u0142aw Jurecki",
+            "resource_url": "https://api.discogs.com/artists/702387"
+        },
+        {
+            "active": false,
+            "id": 703017,
+            "name": "\u0141ukasz Pilch",
+            "resource_url": "https://api.discogs.com/artists/703017"
+        },
+        {
+            "active": false,
+            "id": 764183,
+            "name": "Andrzej Zi\u00f3\u0142kowski",
+            "resource_url": "https://api.discogs.com/artists/764183"
+        },
+        {
+            "active": false,
+            "id": 764184,
+            "name": "Zdzis\u0142aw Janiak",
+            "resource_url": "https://api.discogs.com/artists/764184"
+        },
+        {
+            "active": false,
+            "id": 976072,
+            "name": "Arkadiusz Smyk",
+            "resource_url": "https://api.discogs.com/artists/976072"
+        },
+        {
+            "active": false,
+            "id": 1005141,
+            "name": "Zbigniew Zieli\u0144ski",
+            "resource_url": "https://api.discogs.com/artists/1005141"
+        },
+        {
+            "active": false,
+            "id": 1005144,
+            "name": "Andrzej Szczodrowski",
+            "resource_url": "https://api.discogs.com/artists/1005144"
+        },
+        {
+            "active": false,
+            "id": 1005147,
+            "name": "Andrzej Sid\u0142o",
+            "resource_url": "https://api.discogs.com/artists/1005147"
+        },
+        {
+            "active": false,
+            "id": 1005156,
+            "name": "Stanis\u0142aw Wenglorz",
+            "resource_url": "https://api.discogs.com/artists/1005156"
+        },
+        {
+            "active": false,
+            "id": 1005160,
+            "name": "Felicjan Andrzejczak",
+            "resource_url": "https://api.discogs.com/artists/1005160"
+        },
+        {
+            "active": false,
+            "id": 1005163,
+            "name": "Romuald Czystaw",
+            "resource_url": "https://api.discogs.com/artists/1005163"
+        },
+        {
+            "active": false,
+            "id": 1005164,
+            "name": "Piotr P\u0142echa",
+            "resource_url": "https://api.discogs.com/artists/1005164"
+        }
+    ],
+    "name": "Budka Suflera",
+    "namevariations": [
+        "Gruppe Budka Suflera",
+        "Zesp\u00f3\u0142 Budka Suflera"
+    ],
+    "profile": "Polish rock-group. Formed (officially)-1974 in Lublin (Poland).",
+    "releases_url": "https://api.discogs.com/artists/359282/releases",
+    "resource_url": "https://api.discogs.com/artists/359282",
+    "uri": "https://www.discogs.com/artist/359282-Budka-Suflera",
+    "urls": [
+        "http://www.budkasuflera.pl/",
+        "https://pl.wikipedia.org/wiki/Budka_Suflera",
+        "https://www.facebook.com/budkasuflera",
+        "http://youtube.com/user/budkasuflerapl?feature=mhee"
+    ]
+}

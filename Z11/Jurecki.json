@@ -1,0 +1,95 @@
+{
+    "aliases": [
+        {
+            "id": 831984,
+            "name": "Mechanik",
+            "resource_url": "https://api.discogs.com/artists/831984"
+        }
+    ],
+    "data_quality": "Needs Vote",
+    "groups": [
+        {
+            "active": true,
+            "id": 359282,
+            "name": "Budka Suflera",
+            "resource_url": "https://api.discogs.com/artists/359282"
+        },
+        {
+            "active": false,
+            "id": 669348,
+            "name": "Perfect (7)",
+            "resource_url": "https://api.discogs.com/artists/669348"
+        },
+        {
+            "active": false,
+            "id": 852880,
+            "name": "Alex Band (2)",
+            "resource_url": "https://api.discogs.com/artists/852880"
+        },
+        {
+            "active": false,
+            "id": 2845174,
+            "name": "Muzyczna Sp\u00f3\u0142ka Akcyjna 1111",
+            "resource_url": "https://api.discogs.com/artists/2845174"
+        },
+        {
+            "active": true,
+            "id": 3997885,
+            "name": "Kwartet Zbigniewa Lewandowskiego",
+            "resource_url": "https://api.discogs.com/artists/3997885"
+        },
+        {
+            "active": false,
+            "id": 4214289,
+            "name": "Grupa Spisek",
+            "resource_url": "https://api.discogs.com/artists/4214289"
+        },
+        {
+            "active": true,
+            "id": 4751291,
+            "name": "Wieko",
+            "resource_url": "https://api.discogs.com/artists/4751291"
+        },
+        {
+            "active": true,
+            "id": 5073209,
+            "name": "Chojnacki &",
+            "resource_url": "https://api.discogs.com/artists/5073209"
+        },
+        {
+            "active": false,
+            "id": 7012702,
+            "name": "Free Funk Trio (2)",
+            "resource_url": "https://api.discogs.com/artists/7012702"
+        }
+    ],
+    "id": 702387,
+    "images": [
+        {
+            "height": 502,
+            "resource_url": "",
+            "type": "primary",
+            "uri": "",
+            "uri150": "",
+            "width": 600
+        }
+    ],
+    "name": "Mieczys\u0142aw Jurecki",
+    "namevariations": [
+        "\"Mietek\" Mieczys\u0142aw Jurecki",
+        "Jurecki",
+        "M. Jurecki",
+        "M.Jurecki",
+        "Mieczys\u0142aw \"Mechanik\" Jurecki",
+        "Mietek",
+        "Mietek Jurecki"
+    ],
+    "profile": "Born 3 October 1956 in Wroc\u0142aw, Poland. Polish guitarist, composer, arranger. Owner and engineer at [l641131].",
+    "realname": "Mieczys\u0142aw Jurecki",
+    "releases_url": "https://api.discogs.com/artists/702387/releases",
+    "resource_url": "https://api.discogs.com/artists/702387",
+    "uri": "https://www.discogs.com/artist/702387-Mieczys\u0142aw-Jurecki",
+    "urls": [
+        "http://www.jurecki.art.pl"
+    ]
+}
