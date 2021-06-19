@@ -4,7 +4,7 @@ LDFLAGS := -lrt -pthread
 
 .PHONY: all clean test
 
-all: Automat.o
+all:sumator.out
 	
 test:test.out 
 	./test.out
@@ -15,6 +15,8 @@ Automat.o:
 
 test.out:Automat.o test.o
 
+sumator.out: Automat.o main.o
+	
 %.out:%.o
 	$(CXX) -o $@ $^ $(LDFLAGS) 
 clean:

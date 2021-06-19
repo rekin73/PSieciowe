@@ -1,3 +1,26 @@
+//#define _GNU_SOURCE
+
+#include <errno.h>
+#include <pthread.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+
+// Te dwa pliki nagłówkowe są specyficzne dla Linuksa z biblioteką glibc:
+#include <sys/epoll.h>
+#include <sys/syscall.h>
+#include "Automat.h"
 int listening_socket_tcp_ipv4(in_port_t port)
 {
     int s;
@@ -131,7 +154,7 @@ ssize_t write_verbose(int fd, void * buf, size_t nbytes)
     ssize_t rv = write(fd, buf, nbytes);
     if (rv == -1) {
         log_perror("write");
-    } else if (rv < nbytes) {
+    } else if ((size_t)rv < nbytes) {
         log_printf("partial write on %i, wrote only %zi of %zu bytes",
                         fd, rv, nbytes);
     } else {
@@ -157,11 +180,27 @@ ssize_t read_data(int sock)
     if (bytes_read < 0) {
         return -1;
     }
+    Automat a;
+    ssize_t msgSize = 0;
+    Automat::States s;
+    //rot13(buf, bytes_read);
+		for(int j=0; j<bytes_read;j++){
+			s=a.parse(buf[j]);
+			//std::cout<<"parse: "<<(int)s<<" "<<tab[i][j]<<std::endl;
+			if(/*s==Automat::States::error||*/s==Automat::States::endline){
+				msgSize=a.getFinalMessage(buf);
+			}else if(j+1==bytes_read){
 
-    rot13(buf, bytes_read);
+				bytes_read = read_verbose(sock, buf, sizeof(buf));
+				if (bytes_read < 0) {
+					return -1;
+				}
+				j=0;
+			}
+		}
 
     char * data = buf;
-    size_t data_len = bytes_read;
+    size_t data_len = msgSize;
     while (data_len > 0) {
         ssize_t bytes_written = write_verbose(sock, data, data_len);
         if (bytes_written < 0) {
@@ -270,7 +309,7 @@ int main(int argc, char * argv[])
     // Przetwórz argumenty podane w linii komend, ustaw na ich podstawie
     // wartości zmiennych srv_port i main_loop.
 
-    if (argc != 3) {
+    if (argc != 2) {
         goto bad_args;
     }
 
@@ -278,7 +317,7 @@ int main(int argc, char * argv[])
 
     char * p;
     errno = 0;
-    srv_port = strtol(argv[2], &p, 10);
+    srv_port = strtol(argv[1], &p, 10);
     if (errno != 0 || *p != '\0' || srv_port < 1024 || srv_port > 65535) {
         goto bad_args;
     }
@@ -303,9 +342,9 @@ int main(int argc, char * argv[])
 bad_args:
     fprintf(stderr, "Usage: %s mode port\n", argv[0]);
     fprintf(stderr, "available server modes:\n");
-    for (int i = 0; i < sizeof(srv_modes) / sizeof(srv_modes[0]); ++i) {
-        fprintf(stderr, "    %s\n", srv_modes[i].name);
-    }
+    //for (int i = 0; i < sizeof(srv_modes) / sizeof(srv_modes[0]); ++i) {
+    //    fprintf(stderr, "    %s\n", srv_modes[i].name);
+    //}
     fprintf(stderr, "listening port number range: 1024-65535\n");
 fail:
     return 1;

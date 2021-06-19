@@ -16,17 +16,16 @@ int main(){
 
 		for(int j=0; j<(int)(tab[i].size());j++){
 			s=a.parse(tab[i][j]);
-			std::cout<<(int)s<<" "<<tab[i][j]<<std::endl;
+			//std::cout<<(int)s<<" "<<tab[i][j]<<std::endl;
 			if(/*s==Automat::States::error||*/s==Automat::States::endline){
 				buffsize=a.getFinalMessage(buff);
-				for(int j=0; j<buffsize;j++){
-					std::cout<<(int)buff[j]<<" ";
-					buff[j]=0;
+				for(int k=0; k<buffsize;k++){
+					std::cout<<buff[k];
+					//buff[k]=0;
 				}
 			}
 		}
 
-		std::cout<<std::endl;
 
 	}
 
