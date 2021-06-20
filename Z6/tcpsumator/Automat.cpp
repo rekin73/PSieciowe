@@ -7,7 +7,7 @@ Automat::Automat(){
 	digit=0;
 	errorline=false;
 	state=Automat::States::start;
-	std::cout<<"init"<<(int)state<<std::endl;
+	//std::cout<<"init"<<(int)state<<std::endl;
 }
 Automat::~Automat(){}
 Automat::States Automat::parse(char input){
@@ -47,6 +47,9 @@ Automat::States Automat::parse(char input){
 				if(input=='\r'){
 					state=Automat::States::returnCaret;
 				}	
+				else if(input == '\n'){
+					state=Automat::States::endline;
+				}
 				break;
 			case Automat::States::endline:
 				
@@ -58,6 +61,8 @@ Automat::States Automat::parse(char input){
 					state=Automat::States::error;
 				}
 				break;
+		}else{
+			state=Automat::States::error;
 		}
 	if(state==Automat::States::error)
 		errorline=true;
@@ -67,10 +72,12 @@ int Automat::getFinalMessage(char buffor[]){
 	if(!errorline){
 	int tmp = sum;
 	int nOfDigits=0;
-	while(tmp){
+	do{
 		nOfDigits++;
 		tmp/=10;
-	}
+					
+	}while(tmp);
+	
 	sprintf(buffor,"%d",sum);
 	buffor[nOfDigits+1]='\n';
 	buffor[nOfDigits]='\r';

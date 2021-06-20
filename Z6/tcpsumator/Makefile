@@ -16,7 +16,7 @@ Automat.o:
 test.out:Automat.o test.o
 
 sumator.out: Automat.o main.o
-	
+	$(CXX) $(CXXFALGS) $^ -o $@	
 %.out:%.o
 	$(CXX) -o $@ $^ $(LDFLAGS) 
 clean:
